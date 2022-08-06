@@ -16,9 +16,20 @@ public class RoomLogic : MonoBehaviour
     private Label textBlock;
     private Label stateString;
 
+    private static RoomLogic roomLogicInstance;
+
     private void Awake()
     {
-        DontDestroyOnLoad(this.gameObject);
+        DontDestroyOnLoad(this);
+
+        if (roomLogicInstance == null)
+        {
+            roomLogicInstance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
     private void Start()
     {
