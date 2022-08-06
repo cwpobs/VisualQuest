@@ -9,6 +9,13 @@ public class RoomObject : MonoBehaviour
     public RoomObjectType objectType;
     public string DoorSceneName;
 
+    private RoomLogic roomLogic;
+
+    private void Start()
+    {
+        roomLogic = GameObject.Find("RoomLogic").GetComponent<RoomLogic>(); 
+        
+    }
     public void ExecuteRoomObject()
     {
         switch (objectType)
