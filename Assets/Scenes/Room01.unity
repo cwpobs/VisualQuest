@@ -180,12 +180,16 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -8.881273, y: -4.475078}
-      - {x: -8.896647, y: -5.307596}
+    - - {x: 8.085064, y: 4.5482264}
+      - {x: 8.120965, y: -4.289703}
+      - {x: -2.013112, y: -4.366552}
+      - {x: -2.0935555, y: 4.5416427}
+      - {x: -2.871765, y: 5.105499}
+      - {x: -2.8656883, y: -5.3696113}
       - {x: 3.0230477, y: -5.385463}
       - {x: 7.726715, y: -5.324473}
       - {x: 8.798657, y: -5.2652974}
-      - {x: 8.774154, y: -4.400168}
+      - {x: 8.75865, y: 4.5299926}
 --- !u!4 &451598435
 Transform:
   m_ObjectHideFlags: 0
@@ -211,6 +215,7 @@ GameObject:
   m_Component:
   - component: {fileID: 654785101}
   - component: {fileID: 654785100}
+  - component: {fileID: 654785102}
   m_Layer: 0
   m_Name: RoomLogic
   m_TagString: Untagged
@@ -249,6 +254,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &654785102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 654785099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PanelSettings: {fileID: 11400000, guid: 5b0b07da3998b2a49a8da4125d12f562, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: 37abd55bb685bfc46992a1dee97e3c90, type: 3}
+  m_SortingOrder: 0
 --- !u!1 &1412204100
 GameObject:
   m_ObjectHideFlags: 0
@@ -326,7 +347,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1412204100}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.08435583, y: -0.023006136, z: 0}
+  m_LocalPosition: {x: 3.09, y: -0.18, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -369,7 +390,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
