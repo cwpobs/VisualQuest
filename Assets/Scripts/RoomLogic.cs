@@ -42,7 +42,7 @@ public class RoomLogic : MonoBehaviour
 
     public void AddTextBlockMessage(string message)
     {
-        textBlock.text += message + "\n";
+        textBlock.text += message + "\n\n";
     }
     void Update()
     {
