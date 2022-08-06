@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class RoomObject : MonoBehaviour
 {
+    public string displayName;
     public enum RoomObjectType { CollectibleItem, TextMessage, Door};
     public RoomObjectType objectType;
     public string DoorSceneName;

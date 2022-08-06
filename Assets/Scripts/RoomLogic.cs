@@ -61,6 +61,7 @@ public class RoomLogic : MonoBehaviour
             RO = selectedObject.GetComponent<RoomObject>();
             if (RO)
             {
+                stateString.text = RO.displayName;
                 switch (RO.objectType)
                 {
                     case RoomObject.RoomObjectType.Door:
@@ -73,9 +74,9 @@ public class RoomLogic : MonoBehaviour
                 
             }
 
-           
 
-            stateString.text = selectedObject.name;
+
+            
         }
         else
         {

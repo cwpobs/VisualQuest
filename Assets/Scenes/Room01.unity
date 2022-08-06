@@ -153,8 +153,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4fc4bc17cf643b4584a5d5673cdbbe6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  displayName: "\u0412\u044B\u0439\u0442\u0438"
   objectType: 2
   DoorSceneName: StartRoom
+  MessageText: 
 --- !u!60 &451598434
 PolygonCollider2D:
   m_ObjectHideFlags: 0

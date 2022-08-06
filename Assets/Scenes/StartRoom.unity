@@ -321,6 +321,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4fc4bc17cf643b4584a5d5673cdbbe6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  displayName: "\u0418\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442\u044B"
   objectType: 1
   DoorSceneName: Room01
   MessageText: "\u042D\u0442\u043E \u043A\u0430\u043A\u0438\u0435-\u0442\u043E \u0441\u0442\u0440\u0430\u043D\u043D\u044B\u0435
@@ -447,6 +448,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4fc4bc17cf643b4584a5d5673cdbbe6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  displayName: "\u0428\u043A\u0430\u0444\u0447\u0438\u043A"
   objectType: 2
   DoorSceneName: Room01
   MessageText: 
