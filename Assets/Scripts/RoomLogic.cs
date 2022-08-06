@@ -25,6 +25,13 @@ public class RoomLogic : MonoBehaviour
         var rootVisualElement = GetComponent<UIDocument>().rootVisualElement;
         textBlock = rootVisualElement.Q<Label>("TextBlock");
         stateString = rootVisualElement.Q<Label>("StateString");
+
+        textBlock.text = "Старт игры\n";
+    }
+
+    public void AddTextBlockMessage(string message)
+    {
+        textBlock.text += message + "\n";
     }
     void Update()
     {

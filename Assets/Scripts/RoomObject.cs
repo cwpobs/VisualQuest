@@ -8,6 +8,7 @@ public class RoomObject : MonoBehaviour
     public enum RoomObjectType { CollectibleItem, TextMessage, Door};
     public RoomObjectType objectType;
     public string DoorSceneName;
+    public string MessageText;
 
     private RoomLogic roomLogic;
 
@@ -21,11 +22,13 @@ public class RoomObject : MonoBehaviour
         switch (objectType)
         {
             case RoomObjectType.Door:
-                Debug.Log("Executed " + gameObject.name);
                 SceneManager.LoadScene(DoorSceneName);
                 break;
+            case RoomObjectType.TextMessage:
+                roomLogic.AddTextBlockMessage(MessageText);
+                break;
 
-                
+
         }
         
     }
