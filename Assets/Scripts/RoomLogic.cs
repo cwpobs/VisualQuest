@@ -7,7 +7,11 @@ public class RoomLogic : MonoBehaviour
 {
     public GameObject selectedObject;
 
-    public Texture2D cursorTexture;
+    public Texture2D[] cursorTextures;
+    // 0 - Курсор Дверь
+    // 1 - Курсор Глаз
+
+
     public CursorMode cursorMode = CursorMode.Auto;
     public Vector2 hotSpot = Vector2.zero;
 
@@ -53,7 +57,23 @@ public class RoomLogic : MonoBehaviour
         if (targetObject)
         {
             selectedObject = targetObject.transform.gameObject;
-            UnityEngine.Cursor.SetCursor(cursorTexture, hotSpot, cursorMode); //добавить код выбора нужного курсора
+            RoomObject RO;
+            RO = selectedObject.GetComponent<RoomObject>();
+            if (RO)
+            {
+                switch (RO.objectType)
+                {
+                    case RoomObject.RoomObjectType.Door:
+                        UnityEngine.Cursor.SetCursor(cursorTextures[0], hotSpot, cursorMode);
+                    break;
+                    case RoomObject.RoomObjectType.TextMessage:
+                        UnityEngine.Cursor.SetCursor(cursorTextures[1], hotSpot, cursorMode);
+                    break;
+                }
+                
+            }
+
+           
 
             stateString.text = selectedObject.name;
         }
