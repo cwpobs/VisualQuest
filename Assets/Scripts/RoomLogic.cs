@@ -41,7 +41,7 @@ public class RoomLogic : MonoBehaviour
         textBlock = rootVisualElement.Q<Label>("TextBlock");
         stateString = rootVisualElement.Q<Label>("StateString");
 
-        textBlock.text = "Старт игры\n";
+        textBlock.text = "Старт игры\n\n";
     }
 
     public void AddTextBlockMessage(string message)
