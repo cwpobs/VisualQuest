@@ -9,6 +9,10 @@ public class RoomLogic : MonoBehaviour
     public Texture2D cursorTexture;
     public CursorMode cursorMode = CursorMode.Auto;
     public Vector2 hotSpot = Vector2.zero;
+    private void Awake()
+    {
+        DontDestroyOnLoad(this.gameObject);
+    }
     void Update()
     {
         Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
