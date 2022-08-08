@@ -25,6 +25,7 @@ public class RoomLogic : MonoBehaviour
     // 0 - Курсор Дверь
     // 1 - Курсор Глаз
     // 2 - Курсор Действие
+    // 3 - Курсор Взять предмет
 
 
     public CursorMode cursorMode = CursorMode.Auto;
@@ -106,6 +107,9 @@ public class RoomLogic : MonoBehaviour
                     break;
                     case RoomObject.RoomObjectType.DestroyByitem:
                         UnityEngine.Cursor.SetCursor(cursorTextures[2], hotSpot, cursorMode);
+                    break;
+                    case RoomObject.RoomObjectType.InventoryItem:
+                        UnityEngine.Cursor.SetCursor(cursorTextures[3], hotSpot, cursorMode);
                     break;
                 }
                 

@@ -384,6 +384,7 @@ MonoBehaviour:
     \u0432 \u0433\u043E\u0440\u043E\u0434\u0435 \u043D\u0435 \u043F\u0440\u0435\u043A\u0440\u0430\u0449\u0430\u0435\u0442\u0441\u044F
     \u0443\u0436\u0435 \u043D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u043E \u043D\u0435\u0434\u0435\u043B\u044C."
   itemIndex: 0
+  itemName: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -484,7 +485,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &560984213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -515,6 +516,7 @@ MonoBehaviour:
     \"\u041A\u043B\u0443\u0431 54\" \u0432 \u0441\u0442\u0430 \u043C\u0435\u0442\u0440\u0430\u0445
     \u0434\u0430\u043B\u044C\u0448\u0435 \u043F\u043E \u0434\u043E\u0440\u043E\u0433\u0435. "
   itemIndex: 0
+  itemName: 
 --- !u!4 &560984214
 Transform:
   m_ObjectHideFlags: 0
@@ -561,15 +563,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName: "\u0412\u0430\u0448\u0430 \u043C\u0430\u0448\u0438\u043D\u0430"
-  objectType: 1
-  DoorSceneName: Room01
-  MessageText: "\u042D\u0442\u043E \u0432\u0430\u0448\u0430 \u043C\u0430\u0448\u0438\u043D\u0430.
-    \u0421\u0435\u0439\u0447\u0430\u0441 \u043D\u0435\u0442 \u0441\u043C\u044B\u0441\u043B\u0430
-    \u0443\u0435\u0437\u0436\u0430\u0442\u044C, \u0442\u0430\u043A \u043A\u0430\u043A
-    \u0432\u044B \u0435\u0449\u0435 \u043D\u0435 \u043F\u043E\u0433\u043E\u0432\u043E\u0440\u0438\u043B\u0438
-    \u0441 \u0432\u043B\u0430\u0434\u0435\u043B\u044C\u0446\u0435\u043C \"\u041A\u043B\u0443\u0431\u0430
-    54\""
-  itemIndex: 0
+  objectType: 0
+  DoorSceneName: 
+  MessageText: 
+  itemIndex: 2
+  itemName: "\u041F\u043E\u043B\u0438\u0446\u0435\u0439\u0441\u043A\u0438\u0439 \u0437\u043D\u0430\u0447\u043E\u043A"
 --- !u!60 &1037327842
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -670,6 +668,7 @@ MonoBehaviour:
     \u0436\u0435\u0440\u0442\u0432\u0430 \u044D\u043A\u043E\u043D\u043E\u043C\u0438\u0447\u0435\u0441\u043A\u043E\u0433\u043E
     \u0441\u043F\u0430\u0434\u0430."
   itemIndex: 0
+  itemName: 
 --- !u!60 &1107217523
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -780,9 +779,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   displayName: "\u041A \"\u041A\u043B\u0443\u0431\u0443 54\""
   objectType: 2
-  DoorSceneName: Room01
+  DoorSceneName: Room04
   MessageText: 
   itemIndex: 0
+  itemName: 
 --- !u!1 &1873065966
 GameObject:
   m_ObjectHideFlags: 0
@@ -835,6 +835,7 @@ MonoBehaviour:
   - {fileID: 2800000, guid: ce823db8df230954782b1e97ccf50ef0, type: 3}
   - {fileID: 2800000, guid: a6a7bcd27d2af5144a8f4ce26f506ac3, type: 3}
   - {fileID: 2800000, guid: 802c4c10dd61cac4b9b09ae5b14f356d, type: 3}
+  - {fileID: 2800000, guid: 141d9651c4481e940befeb30d9bfc250, type: 3}
   cursorMode: 0
   hotSpot: {x: 0, y: 0}
 --- !u!4 &1873065969
@@ -909,6 +910,7 @@ MonoBehaviour:
     \u0431\u0435\u0437\u0434\u043E\u043C\u043D\u044B\u0445 \u0438 \u0442\u043E\u0440\u0447\u043A\u043E\u0432
     \u0432\u0441\u0435\u0445 \u043C\u0430\u0441\u0442\u0435\u0439."
   itemIndex: 0
+  itemName: 
 --- !u!60 &1916843072
 PolygonCollider2D:
   m_ObjectHideFlags: 0
