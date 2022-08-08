@@ -7,7 +7,7 @@ onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
-	"last_search.B655092D" = "st:"
+	"last_search.B655092D" = "st:StartLocationBuildingObject2MessageText"
 	"OpenInspectorPreview.B655092D" = "0"
 	"currentGroup.B655092D" = "all"
 }
@@ -66,6 +66,18 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	"st:StartLocationBuildingObject2MessageText"
+	"st:StartLocationBuildingObject2DispName"
+	"st:StartLocationGarbageObjectMessageText"
+	"st:StartLocationGarbageObjectDispName"
+	"st:StartLocationBuildingObjectMessageTetx"
+	"st:StartLocationBuildingObjectDispName"
+	"st:StartLocationCarObjectDispName"
+	"st:StartLocationExitObjectDispName"
+	"StartLocationExitObjectDispName"
+	"s"
+	"st"
+	"st:"
 ]
 searchItemFavorites = [
 ]

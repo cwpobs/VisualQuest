@@ -55,6 +55,10 @@ MonoBehaviour:
     m_Key: StartLocationExitObjectDispName
     m_Metadata:
       m_Items: []
+  - m_Id: 24934329909248
+    m_Key: ItemPoliceBadgeItemName
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
