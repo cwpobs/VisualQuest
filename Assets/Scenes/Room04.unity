@@ -323,7 +323,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   displayName: "\u0412 \u043F\u043E\u0434\u0432\u043E\u0440\u043E\u0442\u043D\u044E"
   objectType: 2
-  DoorSceneName: Room02
+  DoorSceneName: Room07
   MessageText: 
   itemIndex: 0
   itemName: 
