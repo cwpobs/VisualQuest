@@ -59,6 +59,82 @@ MonoBehaviour:
     m_Key: ItemPoliceBadgeItemName
     m_Metadata:
       m_Items: []
+  - m_Id: 28722843385856
+    m_Key: Room01LocationInfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29122816409600
+    m_Key: Room01ExitObject02DispName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29430305030144
+    m_Key: Room01ExitObject01DispName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31385320456192
+    m_Key: Room01ClubDoorObjectDispName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31594985324544
+    m_Key: Room01ClubDoorObjectMessageText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32047068381184
+    m_Key: Room01Sign01DispName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32183374872576
+    m_Key: Room01Sign01TextMessage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32724180041728
+    m_Key: Room01Sign02DispName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32840261599232
+    m_Key: Room01Sign02MessageText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33377690353664
+    m_Key: Room01Sign03DispName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33514584047616
+    m_Key: Room01Sign03MessageText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35060273152000
+    m_Key: Room01Window01DispName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35258600816640
+    m_Key: Room01Window01MessageText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35643709227008
+    m_Key: Room01Window02DispName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35784839168000
+    m_Key: Room01Window02MessageText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36104067645440
+    m_Key: Room01Window03DispName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36246774644736
+    m_Key: Room01Window03MessageText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36559338373120
+    m_Key: Room01Sign04DispName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36724384235520
+    m_Key: Room01Sign04MessageText
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
