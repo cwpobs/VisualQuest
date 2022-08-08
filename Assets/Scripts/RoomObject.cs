@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class RoomObject : MonoBehaviour
 {
     public string displayName;
-    public enum RoomObjectType { InventoryItem, TextMessage, Door, LocationInfo, RedirectByItem, DestroyByitem};
+    public enum RoomObjectType { InventoryItem, TextMessage, Door, LocationInfo, RedirectByItem, GameExit};
     public RoomObjectType objectType;
     public string DoorSceneName;
     public string MessageText;
@@ -81,6 +81,9 @@ public class RoomObject : MonoBehaviour
     {
         switch (objectType)
         {
+            case RoomObjectType.GameExit:
+                Application.Quit();
+                break;
             case RoomObjectType.Door:
                 SceneManager.LoadScene(DoorSceneName);
                 break;

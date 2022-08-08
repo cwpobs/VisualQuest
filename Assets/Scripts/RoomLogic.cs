@@ -59,7 +59,7 @@ public class RoomLogic : MonoBehaviour
         Inventory = new List<InventoryItem>(); 
         VisitedLocationLog = new List<string>();
 
-        textBlock.text = "Старт игры\n\n";
+        textBlock.text = "\n\n";
     }
 
     public void AddTextBlockMessage(string message)
@@ -99,13 +99,13 @@ public class RoomLogic : MonoBehaviour
                     case RoomObject.RoomObjectType.Door:
                         UnityEngine.Cursor.SetCursor(cursorTextures[0], hotSpot, cursorMode);
                     break;
+                    case RoomObject.RoomObjectType.GameExit:
+                        UnityEngine.Cursor.SetCursor(cursorTextures[0], hotSpot, cursorMode);
+                        break;
                     case RoomObject.RoomObjectType.TextMessage:
                         UnityEngine.Cursor.SetCursor(cursorTextures[1], hotSpot, cursorMode);
                     break;
                     case RoomObject.RoomObjectType.RedirectByItem:
-                        UnityEngine.Cursor.SetCursor(cursorTextures[2], hotSpot, cursorMode);
-                    break;
-                    case RoomObject.RoomObjectType.DestroyByitem:
                         UnityEngine.Cursor.SetCursor(cursorTextures[2], hotSpot, cursorMode);
                     break;
                     case RoomObject.RoomObjectType.InventoryItem:
