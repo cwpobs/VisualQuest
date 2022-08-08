@@ -35,4 +35,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Room07.unity
     guid: e1cd339e8beac2c4f9ba2d9493cc93f9
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 89a6787c85f482a4a9b21eb8d7479537, type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: 8aa056e0d4d4ed7459c20b2a8e0d57af, type: 2}
