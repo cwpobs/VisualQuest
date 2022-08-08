@@ -280,7 +280,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 436236535}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.12, y: -2.32, z: 0}
+  m_LocalPosition: {x: 3.3899999, y: -1.3699999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -314,7 +314,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 552449316}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.08, y: 0.13, z: 0}
+  m_LocalPosition: {x: 3.19, y: 1.08, z: 0}
   m_LocalScale: {x: 2.1563115, y: 2.1880379, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -569,9 +569,10 @@ MonoBehaviour:
   displayName: 
   objectType: 3
   DoorSceneName: 
-  MessageText: "\u0412\u044B \u0437\u0430\u0448\u043B\u0438 \u0437\u0430 \u0437\u0434\u0430\u043D\u0438\u0435
-    \u043A\u043B\u0443\u0431\u0430 \u0438 \u043E\u043A\u0430\u0437\u0430\u043B\u0438\u0441\u044C
-    \u0432 \u043F\u043E\u0434\u0432\u043E\u0440\u043E\u0442\u043D\u0435."
+  MessageText: "\u0412\u044B \u0431\u0440\u043E\u0441\u0430\u0435\u0442\u0435 \u0433\u043E\u0440\u0441\u0442\u043A\u0443
+    \u043A\u0430\u043C\u043D\u0435\u0439 \u0432 \u043E\u043A\u043D\u043E. \u041E\u043D\u0438
+    \u0441 \u0441\u0438\u043B\u044C\u043D\u044B\u043C \u0437\u0432\u043E\u043D\u043E\u043C
+    \u0443\u0434\u0430\u0440\u044F\u044E\u0442\u0441\u044F \u043E \u0441\u0442\u0435\u043A\u043B\u043E."
   itemIndex: 0
 --- !u!4 &2069833400
 Transform:

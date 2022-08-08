@@ -11,6 +11,7 @@ public class RoomObject : MonoBehaviour
     public string DoorSceneName;
     public string MessageText;
     public int itemIndex;
+    public string itemName;
 
     private RoomLogic roomLogic;
     private float timer = 0.1f;
@@ -87,8 +88,8 @@ public class RoomObject : MonoBehaviour
                 roomLogic.AddTextBlockMessage(MessageText);
                 break;
             case RoomObjectType.InventoryItem:
-                roomLogic.AddInventoryItem(itemIndex, displayName);
-                roomLogic.AddTextBlockMessage(displayName + " отправляется в ваш инветарь");
+                roomLogic.AddInventoryItem(itemIndex, itemName);
+                roomLogic.AddTextBlockMessage(itemName + " отправляется в ваш инветарь");
                 roomLogic.ShowInventory();
                 Destroy(gameObject);
                 break;
