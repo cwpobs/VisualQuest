@@ -172,8 +172,7 @@ MonoBehaviour:
   objectType: 1
   DoorSceneName: 
   MessageText: "\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u0447\u0438\u043A:
-    \u041D\u0438\u043A\u043E\u043B\u0430\u0439 \u041A\u0438\u0440\u0438\u043B\u043B\u043E\u0432.
-    2022\u0433\u043E\u0434."
+    Cubic Pie. 2022\u0433\u043E\u0434."
   itemIndex: 0
   itemName: 
 --- !u!60 &52756307
