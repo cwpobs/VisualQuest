@@ -19,6 +19,42 @@ MonoBehaviour:
     m_Key: StartLocationInfo
     m_Metadata:
       m_Items: []
+  - m_Id: 4686604173312
+    m_Key: StartLocationCarObjectDispName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5175097982976
+    m_Key: StartLocationCarObjectTextMessage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14058914873344
+    m_Key: StartLocationGarbageObjectDispName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17358787739648
+    m_Key: StartLocationGarbageObjectMessageText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18930099847168
+    m_Key: StartLocationBuildingObjectDispName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19333344428032
+    m_Key: StartLocationBuildingObjectMessageTetx
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19701038088192
+    m_Key: StartLocationBuildingObject2DispName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20023475208192
+    m_Key: StartLocationBuildingObject2MessageText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20335548203008
+    m_Key: StartLocationExitObjectDispName
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
