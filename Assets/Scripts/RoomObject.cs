@@ -36,8 +36,25 @@ public class RoomObject : MonoBehaviour
         switch (objectType)
         {
             case RoomObjectType.LocationInfo:
-                roomLogic.AddTextBlockMessage(MessageText);
-                Destroy(gameObject);
+                bool locVisited = false;
+                for (int i = 0; i < roomLogic.VisitedLocationLog.Count; i++)
+                {
+                    if (roomLogic.VisitedLocationLog[i] == SceneManager.GetActiveScene().name)
+                    {
+                        locVisited = true;
+                    }
+                }
+
+                if (locVisited)
+                {
+                    Destroy(gameObject);
+                }
+                else
+                {
+                    roomLogic.AddTextBlockMessage(MessageText);
+                    roomLogic.VisitedLocationLog.Add(SceneManager.GetActiveScene().name);
+                    Destroy(gameObject);
+                }
                 break;
         }
 

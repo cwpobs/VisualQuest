@@ -17,6 +17,7 @@ public class RoomLogic : MonoBehaviour
         }
     };
     public List<InventoryItem> Inventory;
+    public List<string> VisitedLocationLog;
 
     public GameObject selectedObject;
 
@@ -54,6 +55,7 @@ public class RoomLogic : MonoBehaviour
         textBlock = rootVisualElement.Q<Label>("TextBlock");
         stateString = rootVisualElement.Q<Label>("StateString");
         Inventory = new List<InventoryItem>(); 
+        VisitedLocationLog = new List<string>();
 
         textBlock.text = "Старт игры\n\n";
     }
