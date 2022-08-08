@@ -135,6 +135,18 @@ MonoBehaviour:
     m_Key: Room01Sign04MessageText
     m_Metadata:
       m_Items: []
+  - m_Id: 40999395033088
+    m_Key: Room04LocationInfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41473913421824
+    m_Key: Room04MayorObjectDispName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41691237089280
+    m_Key: Room04MayorObjectMessageText
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

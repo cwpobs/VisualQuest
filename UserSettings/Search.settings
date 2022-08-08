@@ -7,7 +7,7 @@ onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
-	"last_search.B655092D" = "st:StartLocationBuildingObject2MessageText"
+	"last_search.B655092D" = "st:Room01Sign04MessageText"
 	"OpenInspectorPreview.B655092D" = "0"
 	"currentGroup.B655092D" = "all"
 }
@@ -66,18 +66,26 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	"st:Room01Sign04MessageText"
+	"st:Room01Sign04DispName"
+	"st:Room01Window02MessageText"
+	"st:Room01Window02DispName"
+	"st:Room01Window01MessageText"
+	"st:Room01Window01DispName"
+	"st:Room01Sign03MessageText"
+	"st:Room01Sign03DispName"
+	"st:Room01Sign02MessageText"
+	"st:Room01Sign02DispName"
+	"st:Room01Sign01TextMessage"
+	"st:Room01Sign01DispName"
+	"st:Room01ClubDoorObjectMessageText"
+	"st:Room01ClubDoorObjectDispName"
+	"st:Room01ExitObject01DispName"
+	"st:Room01ExitObject02DispName"
 	"st:StartLocationBuildingObject2MessageText"
 	"st:StartLocationBuildingObject2DispName"
 	"st:StartLocationGarbageObjectMessageText"
 	"st:StartLocationGarbageObjectDispName"
-	"st:StartLocationBuildingObjectMessageTetx"
-	"st:StartLocationBuildingObjectDispName"
-	"st:StartLocationCarObjectDispName"
-	"st:StartLocationExitObjectDispName"
-	"StartLocationExitObjectDispName"
-	"s"
-	"st"
-	"st:"
 ]
 searchItemFavorites = [
 ]
