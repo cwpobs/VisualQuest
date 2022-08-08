@@ -92,7 +92,29 @@ public class RoomObject : MonoBehaviour
                 roomLogic.ShowInventory();
                 Destroy(gameObject);
                 break;
-            
+            case RoomObjectType.RedirectByItem:
+                int foundItemIndex = -1;
+                for (int i = 0; i < roomLogic.Inventory.Count; i++)
+                {
+                    if (roomLogic.Inventory[i].index == itemIndex)
+                    {
+                        foundItemIndex = i;
+
+                    }
+                }
+                if (foundItemIndex > -1)
+                {
+                    roomLogic.AddTextBlockMessage("Вы используете " + roomLogic.Inventory[foundItemIndex].itemName);
+                    roomLogic.Inventory.RemoveAt(foundItemIndex);
+                    SceneManager.LoadScene(DoorSceneName);
+
+                }
+                else
+                {
+                   roomLogic.AddTextBlockMessage(MessageText);
+                }
+                break;
+
 
 
         }
