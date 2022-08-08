@@ -6,18 +6,41 @@ using UnityEngine.SceneManagement;
 public class RoomObject : MonoBehaviour
 {
     public string displayName;
-    public enum RoomObjectType { InventoryItem, TextMessage, Door};
+    public enum RoomObjectType { InventoryItem, TextMessage, Door, LocationInfo, RedirectByItem, DestroyByitem};
     public RoomObjectType objectType;
     public string DoorSceneName;
     public string MessageText;
     public int itemIndex;
 
     private RoomLogic roomLogic;
+    private float timer = 1.0f;
 
     private void Start()
     {
-        roomLogic = GameObject.Find("RoomLogic").GetComponent<RoomLogic>(); 
+        roomLogic = GameObject.Find("RoomLogic").GetComponent<RoomLogic>();
         
+        
+    }
+
+    private void Update()
+    {
+        timer -= Time.deltaTime;
+        if (timer < 0.0f)
+        {
+            timer = 0.0f;
+            LateStart();
+        }
+    }
+    private void LateStart()
+    {
+        switch (objectType)
+        {
+            case RoomObjectType.LocationInfo:
+                roomLogic.AddTextBlockMessage(MessageText);
+                Destroy(gameObject);
+                break;
+        }
+
     }
     public void ExecuteRoomObject()
     {
@@ -35,6 +58,7 @@ public class RoomObject : MonoBehaviour
                 roomLogic.ShowInventory();
                 Destroy(gameObject);
                 break;
+            
 
 
         }
