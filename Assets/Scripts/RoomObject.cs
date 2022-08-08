@@ -6,10 +6,11 @@ using UnityEngine.SceneManagement;
 public class RoomObject : MonoBehaviour
 {
     public string displayName;
-    public enum RoomObjectType { CollectibleItem, TextMessage, Door};
+    public enum RoomObjectType { InventoryItem, TextMessage, Door};
     public RoomObjectType objectType;
     public string DoorSceneName;
     public string MessageText;
+    public int itemIndex;
 
     private RoomLogic roomLogic;
 
@@ -27,6 +28,12 @@ public class RoomObject : MonoBehaviour
                 break;
             case RoomObjectType.TextMessage:
                 roomLogic.AddTextBlockMessage(MessageText);
+                break;
+            case RoomObjectType.InventoryItem:
+                roomLogic.AddInventoryItem(itemIndex, displayName);
+                roomLogic.AddTextBlockMessage(displayName + " отправляется в ваш инветарь");
+                roomLogic.ShowInventory();
+                Destroy(gameObject);
                 break;
 
 

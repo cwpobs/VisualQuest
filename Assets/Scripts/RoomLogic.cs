@@ -5,6 +5,19 @@ using UnityEngine.UIElements;
 
 public class RoomLogic : MonoBehaviour
 {
+    public struct InventoryItem
+    {
+        public int index;
+        public string itemName;
+
+        public InventoryItem(int _index, string _itemName)
+        {
+            index = _index;
+            itemName = _itemName;
+        }
+    };
+    public List<InventoryItem> Inventory;
+
     public GameObject selectedObject;
 
     public Texture2D[] cursorTextures;
@@ -40,6 +53,7 @@ public class RoomLogic : MonoBehaviour
         var rootVisualElement = GetComponent<UIDocument>().rootVisualElement;
         textBlock = rootVisualElement.Q<Label>("TextBlock");
         stateString = rootVisualElement.Q<Label>("StateString");
+        Inventory = new List<InventoryItem>(); 
 
         textBlock.text = "Старт игры\n\n";
     }
@@ -47,6 +61,20 @@ public class RoomLogic : MonoBehaviour
     public void AddTextBlockMessage(string message)
     {
         textBlock.text += message + "\n\n";
+    }
+    public void AddInventoryItem(int _index, string _displayName)
+    {
+        InventoryItem item = new InventoryItem(_index, _displayName);
+        Inventory.Add(item);
+    }
+    public void ShowInventory()
+    {
+        textBlock.text += "В вашем инвентаре сейчас:" + "\n";
+        for (int i = 0; i < Inventory.Count; i++)
+        {
+            textBlock.text += Inventory[i].itemName + "\n";
+        }
+        textBlock.text += "\n";
     }
     void Update()
     {
