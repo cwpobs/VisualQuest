@@ -13,7 +13,7 @@ public class RoomObject : MonoBehaviour
     public int itemIndex;
 
     private RoomLogic roomLogic;
-    private float timer = 1.0f;
+    private float timer = 0.1f;
 
     private void Start()
     {
@@ -33,6 +33,7 @@ public class RoomObject : MonoBehaviour
     }
     private void LateStart()
     {
+        
         switch (objectType)
         {
             case RoomObjectType.LocationInfo:
@@ -53,6 +54,22 @@ public class RoomObject : MonoBehaviour
                 {
                     roomLogic.AddTextBlockMessage(MessageText);
                     roomLogic.VisitedLocationLog.Add(SceneManager.GetActiveScene().name);
+                    Destroy(gameObject);
+                }
+                break;
+
+            case RoomObjectType.InventoryItem:
+                bool itemCollected = false;
+                for (int i = 0; i < roomLogic.Inventory.Count; i++)
+                {
+                    if (roomLogic.Inventory[i].index == itemIndex)
+                    {
+                        itemCollected = true;
+                    }
+                }
+
+                if (itemCollected)
+                {
                     Destroy(gameObject);
                 }
                 break;
