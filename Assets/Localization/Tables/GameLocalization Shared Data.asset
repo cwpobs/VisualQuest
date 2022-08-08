@@ -147,6 +147,30 @@ MonoBehaviour:
     m_Key: Room04MayorObjectMessageText
     m_Metadata:
       m_Items: []
+  - m_Id: 43033892519936
+    m_Key: Room02ExitObjectDispName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44125648879616
+    m_Key: Room02LocationInfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44318431674368
+    m_Key: Room02WindowsDispName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44497943691264
+    m_Key: Room02WindowsMessageText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46154718937088
+    m_Key: ItemRocksDispName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46417823432704
+    m_Key: ItemRocksItemName
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
