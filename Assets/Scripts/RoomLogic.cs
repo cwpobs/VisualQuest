@@ -57,6 +57,11 @@ public class RoomLogic : MonoBehaviour
     }
     private void Start()
     {
+       
+            // Switch to 1920 x 1080 windowed
+            Screen.SetResolution(1920 , 1080, false);
+
+
         var rootVisualElement = GetComponent<UIDocument>().rootVisualElement;
         textBlock = rootVisualElement.Q<Label>("TextBlock");
         stateString = rootVisualElement.Q<Label>("StateString");
