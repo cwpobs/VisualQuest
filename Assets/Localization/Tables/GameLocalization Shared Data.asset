@@ -171,6 +171,30 @@ MonoBehaviour:
     m_Key: ItemRocksItemName
     m_Metadata:
       m_Items: []
+  - m_Id: 53139287867392
+    m_Key: Room03LocationInfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53395790528512
+    m_Key: Room06LocationInfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53730638594048
+    m_Key: MainMenuNewGameObjectDispName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53956678025216
+    m_Key: MainMenuCreditsObjectDispName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54222852751360
+    m_Key: MainMenuCreditsObjectMessageText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54618186874880
+    m_Key: MainMenuExitGameObjectDispName
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
