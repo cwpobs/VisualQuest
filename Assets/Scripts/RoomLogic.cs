@@ -36,6 +36,10 @@ public class RoomLogic : MonoBehaviour
     private Label textBlock;
     private Label stateString;
 
+    private int textBlockLinesCount = 4;
+    private string[] textBlockLines;
+    private int textBlockCounter = 0;
+
     private static RoomLogic roomLogicInstance;
 
     private void Awake()
@@ -58,13 +62,44 @@ public class RoomLogic : MonoBehaviour
         stateString = rootVisualElement.Q<Label>("StateString");
         Inventory = new List<InventoryItem>(); 
         VisitedLocationLog = new List<string>();
+        textBlockLines = new string[textBlockLinesCount];
+        for (int i = 0; i < textBlockLines.Length; i++)
+        {
+            textBlockLines[i] = new string("");
+        }
 
         textBlock.text = "\n\n";
     }
 
     public void AddTextBlockMessage(string message)
     {
-        textBlock.text += message + "\n\n";
+        if (textBlockCounter < textBlockLinesCount)
+        {
+            textBlockLines[textBlockCounter] = message + "\n\n";
+            textBlockCounter++;
+            Debug.Log(textBlockCounter.ToString());
+        }
+        else
+        {
+            for (int j = 0; j < textBlockCounter - 1; j++)
+            {
+                textBlockLines[j] = textBlockLines[j + 1];
+
+            }
+            
+            textBlockLines[textBlockCounter-1] = message + "\n\n";
+        }
+
+        textBlock.text = "";
+        string colorCodeString = "#d9d9d9";
+        for (int i = 0; i < textBlockCounter-1; i++)
+        {
+            textBlock.text += "<color=" + colorCodeString + ">"+textBlockLines[i]+"</color>";
+        }
+
+        colorCodeString = "#faff25";
+        textBlock.text += "<color=" + colorCodeString + ">"+textBlockLines[textBlockCounter - 1]+"</color>";
+
     }
     public void AddInventoryItem(int _index, string _displayName)
     {
@@ -73,12 +108,14 @@ public class RoomLogic : MonoBehaviour
     }
     public void ShowInventory()
     {
-        textBlock.text += "В вашем инвентаре сейчас:" + "\n";
+        string invText = "";
+        invText += "В вашем инвентаре сейчас:" + "\n";
         for (int i = 0; i < Inventory.Count; i++)
         {
-            textBlock.text += Inventory[i].itemName + "\n";
+            invText += Inventory[i].itemName + "\n";
         }
-        textBlock.text += "\n";
+
+        AddTextBlockMessage(invText);
     }
     void Update()
     {
