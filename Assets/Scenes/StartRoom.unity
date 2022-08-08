@@ -834,6 +834,7 @@ MonoBehaviour:
   cursorTextures:
   - {fileID: 2800000, guid: ce823db8df230954782b1e97ccf50ef0, type: 3}
   - {fileID: 2800000, guid: a6a7bcd27d2af5144a8f4ce26f506ac3, type: 3}
+  - {fileID: 2800000, guid: 802c4c10dd61cac4b9b09ae5b14f356d, type: 3}
   cursorMode: 0
   hotSpot: {x: 0, y: 0}
 --- !u!4 &1873065969

@@ -24,6 +24,7 @@ public class RoomLogic : MonoBehaviour
     public Texture2D[] cursorTextures;
     // 0 - Курсор Дверь
     // 1 - Курсор Глаз
+    // 2 - Курсор Действие
 
 
     public CursorMode cursorMode = CursorMode.Auto;
@@ -99,6 +100,12 @@ public class RoomLogic : MonoBehaviour
                     break;
                     case RoomObject.RoomObjectType.TextMessage:
                         UnityEngine.Cursor.SetCursor(cursorTextures[1], hotSpot, cursorMode);
+                    break;
+                    case RoomObject.RoomObjectType.RedirectByItem:
+                        UnityEngine.Cursor.SetCursor(cursorTextures[2], hotSpot, cursorMode);
+                    break;
+                    case RoomObject.RoomObjectType.DestroyByitem:
+                        UnityEngine.Cursor.SetCursor(cursorTextures[2], hotSpot, cursorMode);
                     break;
                 }
                 
