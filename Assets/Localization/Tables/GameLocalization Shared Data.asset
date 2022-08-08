@@ -195,6 +195,14 @@ MonoBehaviour:
     m_Key: MainMenuExitGameObjectDispName
     m_Metadata:
       m_Items: []
+  - m_Id: 55709066625024
+    m_Key: Room03ContObject
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56329425158144
+    m_Key: EndSceneLocationInfo
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

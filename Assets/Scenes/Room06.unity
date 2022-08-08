@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 52756305}
   - component: {fileID: 52756307}
   - component: {fileID: 52756306}
+  - component: {fileID: 52756308}
   m_Layer: 0
   m_Name: ContObject
   m_TagString: Untagged
@@ -168,7 +169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4fc4bc17cf643b4584a5d5673cdbbe6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  displayName: 
+  displayName: "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C"
   objectType: 2
   DoorSceneName: EndScene
   MessageText: 
@@ -204,6 +205,47 @@ PolygonCollider2D:
       - {x: -1.4386904, y: -0.40206254}
       - {x: 1.4756863, y: -0.36506653}
       - {x: 1.6354803, y: 0.32751507}
+--- !u!114 &52756308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52756304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjects:
+  - rid: 461235425105150150
+  references:
+    version: 2
+    RefIds:
+    - rid: 461235425105150150
+      type: {class: TrackedMonoBehaviourObject, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects, asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 52756306}
+        m_TrackedProperties:
+          items:
+          - rid: 461235425105150151
+        m_UpdateType: 0
+        m_Changed:
+          m_PersistentCalls:
+            m_Calls: []
+    - rid: 461235425105150151
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:27187b0b69d74d74bad1307da2f01b1c
+          m_TableEntryReference:
+            m_KeyId: 55709066625024
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: displayName
 --- !u!1 &436236535
 GameObject:
   m_ObjectHideFlags: 0

@@ -7,7 +7,7 @@ onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
-	"last_search.B655092D" = "st:MainMenuExitGameObjectDispName"
+	"last_search.B655092D" = "st:Room03ContObject"
 	"OpenInspectorPreview.B655092D" = "0"
 	"currentGroup.B655092D" = "all"
 }
@@ -66,6 +66,7 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	"st:Room03ContObject"
 	"st:MainMenuExitGameObjectDispName"
 	"st:MainMenuCreditsObjectMessageText"
 	"st:MainMenuCreditsObjectDispName"
@@ -85,7 +86,6 @@ recentSearches = [
 	"st:Room01Sign02DispName"
 	"st:Room01Sign01TextMessage"
 	"st:Room01Sign01DispName"
-	"st:Room01ClubDoorObjectMessageText"
 ]
 searchItemFavorites = [
 ]
