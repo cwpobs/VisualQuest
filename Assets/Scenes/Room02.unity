@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 451598433}
   - component: {fileID: 451598436}
   m_Layer: 0
-  m_Name: ExitObject02
+  m_Name: ExitObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -153,9 +153,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4fc4bc17cf643b4584a5d5673cdbbe6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  displayName: "\u0412 \u043F\u043E\u0434\u0432\u043E\u0440\u043E\u0442\u043D\u044E"
+  displayName: "\u041D\u0430\u0437\u0430\u0434 \u043A \"\u041A\u043B\u0443\u0431\u0443
+    54\""
   objectType: 2
-  DoorSceneName: Room02
+  DoorSceneName: Room01
   MessageText: 
 --- !u!4 &451598435
 Transform:
@@ -165,7 +166,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 451598432}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.95, y: -0.17, z: 0.07370062}
+  m_LocalPosition: {x: 9.01, y: 0.09, z: 0.07370062}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -197,11 +198,12 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -1.3897072, y: 7.851584}
-      - {x: -1.4358392, y: 0.40597332}
-      - {x: -1.3311179, y: -7.4666862}
-      - {x: 0.87865466, y: -7.4666862}
-      - {x: 1.0156949, y: 7.7746563}
+    - - {x: 1.6833321, y: 7.7228584}
+      - {x: -0.25854933, y: 7.7546263}
+      - {x: -0.40163645, y: 0.309017}
+      - {x: -0.29691657, y: -8.14538}
+      - {x: 1.5250299, y: -9.017987}
+      - {x: 1.8236643, y: 0.3736547}
 --- !u!1 &1412204100
 GameObject:
   m_ObjectHideFlags: 0
@@ -213,7 +215,7 @@ GameObject:
   - component: {fileID: 1412204102}
   - component: {fileID: 1412204101}
   m_Layer: 0
-  m_Name: room_01_bg
+  m_Name: room_02_bg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -260,7 +262,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: a93f063d146523045aaa1d8a9d1f2203, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b7eca6d782c9f8d4c96b5927a84cca31, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -284,7 +286,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 451598435}
-  - {fileID: 2088984064}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -372,82 +373,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2088984063
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2088984064}
-  - component: {fileID: 2088984066}
-  - component: {fileID: 2088984065}
-  m_Layer: 0
-  m_Name: ExitObject01
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2088984064
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2088984063}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.28, y: -0.17000002, z: 0.07370063}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1412204102}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &2088984065
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2088984063}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -1.3897072, y: 7.851584}
-      - {x: -1.4358392, y: 0.40597332}
-      - {x: -1.3311179, y: -7.4666862}
-      - {x: 0.87865466, y: -7.4666862}
-      - {x: 1.0156949, y: 7.7746563}
---- !u!114 &2088984066
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2088984063}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4fc4bc17cf643b4584a5d5673cdbbe6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayName: "\u041D\u0430\u0437\u0430\u0434 \u043A \u043C\u0430\u0448\u0438\u043D\u0435"
-  objectType: 2
-  DoorSceneName: StartRoom
-  MessageText: 
