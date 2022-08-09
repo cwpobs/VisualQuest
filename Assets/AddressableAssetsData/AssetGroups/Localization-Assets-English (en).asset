@@ -22,6 +22,31 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
+  - m_GUID: a05b67d7e17e1ab4da5b5cfc19c83e0b
+    m_Address: New Game_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: 222cdffb15ad4aa40b2555999b4da2f8
+    m_Address: Continue_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: ac60146fd3ae2a5469b4b12649344183
+    m_Address: Credits_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: c947faff63499c54b8a04b9f4c145bb1
+    m_Address: Exit Game_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: f9cbdea897462f540b348b8c92f646f5
+    m_Address: Thank for plaing_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 64752bf5be9197c4cb209fb1f10e4491, type: 2}
   m_SchemaSet:

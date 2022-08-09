@@ -271,6 +271,7 @@ GameObject:
   m_Component:
   - component: {fileID: 559533638}
   - component: {fileID: 559533637}
+  - component: {fileID: 559533639}
   m_Layer: 0
   m_Name: Exit Game
   m_TagString: Untagged
@@ -346,6 +347,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &559533639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559533636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35d445d434bb6064a9ad00f244ed6f46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LocalizedAssetReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:1b8e382049acd50448b2ad5662edf5cf
+    m_TableEntryReference:
+      m_KeyId: 8542197153792
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+  m_UpdateAsset:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1100238587
 GameObject:
   m_ObjectHideFlags: 0
@@ -453,6 +477,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1333362434}
   - component: {fileID: 1333362433}
+  - component: {fileID: 1333362435}
   m_Layer: 0
   m_Name: Credits
   m_TagString: Untagged
@@ -528,6 +553,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1333362435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333362432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35d445d434bb6064a9ad00f244ed6f46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LocalizedAssetReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:1b8e382049acd50448b2ad5662edf5cf
+    m_TableEntryReference:
+      m_KeyId: 8432444801024
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+  m_UpdateAsset:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1454019744
 GameObject:
   m_ObjectHideFlags: 0
@@ -729,6 +777,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1704261341}
   - component: {fileID: 1704261340}
+  - component: {fileID: 1704261342}
   m_Layer: 0
   m_Name: Thank for plaing
   m_TagString: Untagged
@@ -803,6 +852,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1704261342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704261339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35d445d434bb6064a9ad00f244ed6f46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LocalizedAssetReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:1b8e382049acd50448b2ad5662edf5cf
+    m_TableEntryReference:
+      m_KeyId: 8683528421376
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+  m_UpdateAsset:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &2068032415
 GameObject:
   m_ObjectHideFlags: 0

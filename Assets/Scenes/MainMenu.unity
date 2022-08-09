@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 205332010}
   - component: {fileID: 205332009}
+  - component: {fileID: 205332011}
   m_Layer: 0
   m_Name: Exit Game
   m_TagString: Untagged
@@ -208,6 +209,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &205332011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205332008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35d445d434bb6064a9ad00f244ed6f46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LocalizedAssetReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:1b8e382049acd50448b2ad5662edf5cf
+    m_TableEntryReference:
+      m_KeyId: 8542197153792
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+  m_UpdateAsset:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &374240902
 GameObject:
   m_ObjectHideFlags: 0
@@ -632,6 +656,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1245371680}
   - component: {fileID: 1245371679}
+  - component: {fileID: 1245371681}
   m_Layer: 0
   m_Name: Club54
   m_TagString: Untagged
@@ -706,6 +731,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1245371681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245371678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35d445d434bb6064a9ad00f244ed6f46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LocalizedAssetReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:1b8e382049acd50448b2ad5662edf5cf
+    m_TableEntryReference:
+      m_KeyId: 15919513600
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+  m_UpdateAsset:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1412204100
 GameObject:
   m_ObjectHideFlags: 0
@@ -800,6 +848,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1719742528}
   - component: {fileID: 1719742527}
+  - component: {fileID: 1719742529}
   m_Layer: 0
   m_Name: Credits
   m_TagString: Untagged
@@ -875,6 +924,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1719742529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719742526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35d445d434bb6064a9ad00f244ed6f46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LocalizedAssetReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:1b8e382049acd50448b2ad5662edf5cf
+    m_TableEntryReference:
+      m_KeyId: 8432444801024
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+  m_UpdateAsset:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1726667065
 GameObject:
   m_ObjectHideFlags: 0
@@ -885,6 +957,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1726667067}
   - component: {fileID: 1726667066}
+  - component: {fileID: 1726667068}
   m_Layer: 0
   m_Name: New Game
   m_TagString: Untagged
@@ -960,6 +1033,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1726667068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726667065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35d445d434bb6064a9ad00f244ed6f46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LocalizedAssetReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:1b8e382049acd50448b2ad5662edf5cf
+    m_TableEntryReference:
+      m_KeyId: 8189309386752
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+  m_UpdateAsset:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1738971929
 GameObject:
   m_ObjectHideFlags: 0

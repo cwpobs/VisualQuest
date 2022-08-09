@@ -19,6 +19,26 @@ MonoBehaviour:
     m_Key: GameLogo
     m_Metadata:
       m_Items: []
+  - m_Id: 8189309386752
+    m_Key: NewGame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8353671577600
+    m_Key: Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8432444801024
+    m_Key: Credits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8542197153792
+    m_Key: ExitGame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8683528421376
+    m_Key: ThanksforPlaying
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 461235438320615427
@@ -37,6 +57,27 @@ MonoBehaviour:
         m_Entries:
         - m_KeyId: 15919513600
           m_TableCodes:
+          - en
+          - ru
+        - m_KeyId: 8189309386752
+          m_TableCodes:
+          - en
+          - ru
+        - m_KeyId: 8353671577600
+          m_TableCodes:
+          - en
+          - ru
+        - m_KeyId: 8432444801024
+          m_TableCodes:
+          - en
+          - ru
+        - m_KeyId: 8542197153792
+          m_TableCodes:
+          - en
+          - ru
+        - m_KeyId: 8683528421376
+          m_TableCodes:
+          - ru
           - en
         m_TypeString: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null

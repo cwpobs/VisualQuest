@@ -16,7 +16,37 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: c6ecda81c1562854eb9acd6a4c881d32
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 92a484de04c27e74193bd0d0d4fc9924
+    m_Address: Club54_rus
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+  - m_GUID: 2684a69cd4c61894eaab7e9056475697
+    m_Address: New Game
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+  - m_GUID: 43bfc4fd05286ad4cabb01ca5aef5fd5
+    m_Address: Continue
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+  - m_GUID: 88efcb1836793f54dba8afe1a17d6f86
+    m_Address: Credits
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+  - m_GUID: 30b9490f7b486bd409cd0845c7e5f421
+    m_Address: Exit Game
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+  - m_GUID: beb708ed75364804e9211a022537f253
+    m_Address: Thank for plaing
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 64752bf5be9197c4cb209fb1f10e4491, type: 2}
   m_SchemaSet:
