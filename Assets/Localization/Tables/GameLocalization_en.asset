@@ -66,7 +66,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 24934329909248
-    m_Localized: Police badge.
+    m_Localized: Police badge
     m_Metadata:
       m_Items: []
   - m_Id: 28722843385856
@@ -231,6 +231,14 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 56329425158144
     m_Localized: Congratulations! You have completed the game!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 324385158234112
+    m_Localized: goes to your inventory.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 324807491092480
+    m_Localized: 'Your inventory now includes:'
     m_Metadata:
       m_Items: []
   references:

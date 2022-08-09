@@ -92,7 +92,7 @@ public class RoomObject : MonoBehaviour
                 break;
             case RoomObjectType.InventoryItem:
                 roomLogic.AddInventoryItem(itemIndex, itemName);
-                roomLogic.AddTextBlockMessage(itemName + " отправляется в ваш инветарь");
+                roomLogic.AddTextBlockMessage(itemName + " "+roomLogic.locGoesToInventory);
                 roomLogic.ShowInventory();
                 Destroy(gameObject);
                 break;

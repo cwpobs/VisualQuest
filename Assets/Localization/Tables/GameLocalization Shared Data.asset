@@ -203,6 +203,14 @@ MonoBehaviour:
     m_Key: EndSceneLocationInfo
     m_Metadata:
       m_Items: []
+  - m_Id: 324385158234112
+    m_Key: GoesToInventory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 324807491092480
+    m_Key: InventoryIncludes
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

@@ -42,6 +42,10 @@ public class RoomLogic : MonoBehaviour
 
     private static RoomLogic roomLogicInstance;
 
+
+    public string locGoesToInventory;
+    public string locInventoryIncludes;
+
     private void Awake()
     {
         DontDestroyOnLoad(this);
@@ -114,7 +118,7 @@ public class RoomLogic : MonoBehaviour
     public void ShowInventory()
     {
         string invText = "";
-        invText += "В вашем инвентаре сейчас:" + "\n";
+        invText += locInventoryIncludes + "\n";
         for (int i = 0; i < Inventory.Count; i++)
         {
             invText += Inventory[i].itemName + "\n";

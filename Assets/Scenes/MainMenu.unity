@@ -367,6 +367,7 @@ GameObject:
   - component: {fileID: 482082352}
   - component: {fileID: 482082351}
   - component: {fileID: 482082354}
+  - component: {fileID: 482082355}
   m_Layer: 0
   m_Name: RoomLogic
   m_TagString: Untagged
@@ -411,6 +412,8 @@ MonoBehaviour:
   - {fileID: 2800000, guid: 141d9651c4481e940befeb30d9bfc250, type: 3}
   cursorMode: 0
   hotSpot: {x: 0, y: 0}
+  locGoesToInventory: 
+  locInventoryIncludes: 
 --- !u!4 &482082353
 Transform:
   m_ObjectHideFlags: 0
@@ -522,6 +525,61 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &482082355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482082350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjects:
+  - rid: 461235445281587202
+  references:
+    version: 2
+    RefIds:
+    - rid: 461235445281587202
+      type: {class: TrackedMonoBehaviourObject, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects, asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 482082352}
+        m_TrackedProperties:
+          items:
+          - rid: 461235445281587203
+          - rid: 461235445281587204
+        m_UpdateType: 0
+        m_Changed:
+          m_PersistentCalls:
+            m_Calls: []
+    - rid: 461235445281587203
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:27187b0b69d74d74bad1307da2f01b1c
+          m_TableEntryReference:
+            m_KeyId: 324385158234112
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: locGoesToInventory
+    - rid: 461235445281587204
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:27187b0b69d74d74bad1307da2f01b1c
+          m_TableEntryReference:
+            m_KeyId: 324807491092480
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: locInventoryIncludes
 --- !u!1 &731689951
 GameObject:
   m_ObjectHideFlags: 0
