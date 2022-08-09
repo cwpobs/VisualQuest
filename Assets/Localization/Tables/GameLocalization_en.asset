@@ -19,7 +19,218 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 17358787739648
-    m_Localized: 
+    m_Localized: This hulk, with its appearance and especially the smell, eloquently
+      reminds us that the scavengers' strike in the city has not stopped for several
+      weeks.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2455611932672
+    m_Localized: You arrived at the scene to interview the owner of "Club 54". Despite
+      early time, your case does not tolerate delay - the offender is still at large
+      and, perhaps, is now choosing a new victim. The car in an empty parking lot.
+      Club 54 is a hundred meters down the road.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4686604173312
+    m_Localized: Your car.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5175097982976
+    m_Localized: 'This is your car. There is no point in leaving now, since you have
+      not yet spoken to the owner of "Club 54". '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14058914873344
+    m_Localized: An enormous pile of garbage.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18930099847168
+    m_Localized: 'Abandoned skyscrappers. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19333344428032
+    m_Localized: The abandoned skyscraper is another victim of the economic downturn.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19701038088192
+    m_Localized: 'Abandoned skyscrappers. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20023475208192
+    m_Localized: 'It was planned that it would be a business center, but the economy
+      put everything in its place. Now this is a haven for the homeless and junkies. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20335548203008
+    m_Localized: To "Club 54"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24934329909248
+    m_Localized: Police badge.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28722843385856
+    m_Localized: You approach the "Club 54". The establishment is closed today, but
+      its bright signs, as if designed to annoy you, still work. You need to find
+      and interview the owner of the club.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29122816409600
+    m_Localized: 'Into the gateway. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29430305030144
+    m_Localized: Back to the car.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31385320456192
+    m_Localized: The door of "Club 54".
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31594985324544
+    m_Localized: You knock on the door with all your might. Just a little more, and
+      it will fly off the hinges. But this does not bring any result - there is silence
+      outside the door. There is a handwritten sign on the door "We're closed today.
+      Our waitress was murdered. FUCK OFF!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32047068381184
+    m_Localized: 'Club sing. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32183374872576
+    m_Localized: 'The sign reads "Club 54. We have everything you need: Food, Drinks,
+      Women"'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32724180041728
+    m_Localized: 'The sign of the "Club 54". '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32840261599232
+    m_Localized: Ugly bright club sign. Just looking at it makes your eyes hurt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33377690353664
+    m_Localized: 'The signboard reads "Cool". '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33514584047616
+    m_Localized: '"COOL" neon sign. Yeah, right.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35060273152000
+    m_Localized: 'A window. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35258600816640
+    m_Localized: The window is dark. There is no sign that anyone is in this room.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35643709227008
+    m_Localized: 'A window. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35784839168000
+    m_Localized: The window is dark. There is no sign that anyone is in this room.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36104067645440
+    m_Localized: A window with curtains.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36246774644736
+    m_Localized: This window has curtains. Looks like it's a lounge or something.
+      Maybe the owner of the club is there. You need to get his attention somehow.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36559338373120
+    m_Localized: Roof sign
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36724384235520
+    m_Localized: As if all those ugly signs on the walls weren't enough for them,
+      they put another one up on the roof of the building. Amazing. Just wow.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40999395033088
+    m_Localized: 'The light turns on in the room, and a sleepy, disheveled man appears
+      from the window. He''s clearly not happy to see you. "Listen, you bastard,
+      the note on the door clearly says: WE ARE CLOSED TODAY! Get out of here while
+      your legs are still intact. I''m armed," he shouts at you.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41473913421824
+    m_Localized: The club owner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41691237089280
+    m_Localized: The owner of the club is about to lose his patience. "Listen buddy,
+      I don't know who you are or what you want, but you should be the FUCK out of
+      here while you're still alive." You understand that, as luck would have it,
+      you forgot your police badge somewhere. Without it, it is unlikely that it
+      will be possible to have a normal conversation with the owner.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43033892519936
+    m_Localized: Back to "Club 54"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44125648879616
+    m_Localized: You went behind the club building and found yourself in the gateway.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44318431674368
+    m_Localized: Light in the houses windows.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44497943691264
+    m_Localized: 'The light in the windows gives you mixed feelings: peace and some
+      kind of envy. Someone is now relaxing or having fun instead of looking for
+      something useful in the dirty back alley of a third-rate club.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46154718937088
+    m_Localized: Small pebbles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46417823432704
+    m_Localized: Handful of stones
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53139287867392
+    m_Localized: You throw a handful of stones at the window. They hit the glass
+      and make a loud noise.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53395790528512
+    m_Localized: Seeing the police badge, the owner changes his anger to mercy. "Please
+      catch the freak who did this! I'll tell you everything I know." Then the owner
+      of "Club 54" answers all your questions in detail.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53730638594048
+    m_Localized: Start a new game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53956678025216
+    m_Localized: View credits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54222852751360
+    m_Localized: 'Developer: Cubic Pie. 2022'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54618186874880
+    m_Localized: Exit game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55709066625024
+    m_Localized: Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56329425158144
+    m_Localized: Congratulations! You have completed the game!
     m_Metadata:
       m_Items: []
   references:
