@@ -21,6 +21,10 @@ MonoBehaviour:
     m_Address: Assets/Localization/Tables/GameLocalization Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+  - m_GUID: 1b8e382049acd50448b2ad5662edf5cf
+    m_Address: Assets/Localization/AssetTables/SpriteTable Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 64752bf5be9197c4cb209fb1f10e4491, type: 2}
   m_SchemaSet:
